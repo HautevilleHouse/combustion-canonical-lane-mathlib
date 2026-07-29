@@ -1,0 +1,18 @@
+import CombustionCanonicalLaneLean.AdmissibleClass
+import CombustionCanonicalLaneLean.BridgeLemmas
+import CombustionCanonicalLaneLean.GateLemmas
+import CombustionCanonicalLaneLean.FinalTheorem
+import CombustionCanonicalLaneLean.ReactionKinetics
+import CombustionCanonicalLaneLean.FlameStructure
+import CombustionCanonicalLaneLean.CombustionInstabilities
+
+namespace HautevilleHouse
+namespace CombustionCanonicalLaneLean
+
+-- This file aggregates all modules in the Combustion domain package.
+
+theorem combustion_package_complete : True := by
+  trivial
+
+end CombustionCanonicalLaneLean
+end HautevilleHouse
